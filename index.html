@@ -4,8 +4,9 @@
     <head>
         <meta charset="utf-8" />
         <meta name="description" content="Web & Discord Bot Dev" />
+        <meta name="language" content="english">
 
-        <meta name="twitter:site" content="@InfoBlock3" />
+        <meta name="twitter:site" content="@InfoBlock4" />
         <meta name="twitter:title" content="InfoBlock" />
         <meta name="twitter:description" content="Web & Discord Bot Dev" />
         <meta name="twitter:image" content="https://i.imgur.com/wyg2pNi.png" />
@@ -17,76 +18,99 @@
         <meta name="theme-color" content="#6B21A8" />
 
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.0/tailwind.min.css">
-        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.4/tailwind.min.css">
+        <link rel="stylesheet" href="./css/about-me.css">
+        <link rel="stylesheet" href="./css/page.css">
+        <link rel="stylesheet" href="./css/cards.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>InfoBlock</title>
         <link rel="shortcut icon" href="./cdn/logo.png" type="image/x-icon">
     </head>
     
-    <body class="pt-40 p-0 bg-gray-900 text-white">
-
-        <div class="text-center md:w-1/2 w-screen select-none">
-            <a class="text-6xl font-semibold">InfoBlock</a> <br>
-            <a class="text-gray-500">Web & Discord Bot Dev</a> <br>
+    <body style="padding: 0rem;">
+        <div class="top-padding">
+            <div class="pfp-flex">
+                <div class="md:w-1/2 w-screen text-margin">
+                    <text class="name">InfoBlock</text>
+                </div>
+                <a class="pfp">
+                    <img src="./cdn/logo.png" alt="InfoBlock's Profile Picture" class="spicutes" draggable="false">
+                </a>
+            </div>
         </div>
-        <div class="w-1/2 float-right hidden md:block">
-            <img src="cdn/logo.png" id="splashIcon" style="border-radius: 20px;" class="overflow-hidden w-64 mx-auto">
-        </div>
-        <div class="px-20 w-screen" id="list">
 
-            <!-- FIELD ONE -->
-            <div class="card bg-gray-100 rounded-lg bg-gray-800 hover:shadow-xl p-5 content-around" onclick="window.open('./TMP-DE')">
-                <div class="flex">
-                    <img src="cdn/tmp_logo_colored.png" class="rounded-lg w-10 h-10"><span class="font-bold ml-3 mt-2">TruckersMP VTC</span>
+        <div class="list">
+            <a>
+                <div class="card" onclick="window.open('./TMP-DE')">
+                    <div style="display: flex;">
+                        <img src="./cdn/tmp_logo_colored" class="card-img" alt="TruckersMP" draggable="false">
+                        <span class="card-title">TruckersMP VTC</span>
+                    </div>
+                    <p class="card-desc">
+                        German Website Preview
+                    </p>
+                    <p class="card-url">
+                        /TMP-DE
+                    </p>
                 </div>
-                <p class="text-gray-400 mt-2">
-                    German Website Preview
-                </p>
-                <p class="text-blue-300 mt-2">
-                    Click here
-                </p>
-            </div>
-            
-            <!-- FIELD TWO -->
-            <div class="card bg-gray-100 rounded-lg bg-gray-800 hover:shadow-xl p-5 content-around" onclick="window.open('./TMP-EN')">
-                <div class="flex">
-                    <img src="cdn/tmp_logo_colored.png" class="rounded-lg w-10 h-10"><span class="font-bold ml-3 mt-2">TruckersMP VTC</span>
+            </a>
+            <a>
+                <div class="card" onclick="window.open('./TMP-EN')">
+                    <div style="display: flex;">
+                        <img src="./cdn/tmp_logo_colored" class="card-img" alt="TruckersMP" draggable="false">
+                        <span class="card-title">TruckersMP VTC</span>
+                    </div>
+                    <p class="card-desc">
+                        English Website Preview
+                    </p>
+                    <p class="card-url">
+                        /TMP-EN
+                    </p>
                 </div>
-                <p class="text-gray-400 mt-2">
-                    English Website Preview
-                </p>
-                <p class="text-blue-300 mt-2">
-                    Click here
-                </p>
-            </div>
-            
-            <!-- FIELD THREE -->
-            <div class="card bg-gray-100 rounded-lg bg-gray-800 hover:shadow-xl p-5 content-around" onclick="window.open('./MC-DE')">
-                <div class="flex">
-                    <img src="cdn/mc_logo.png" class="rounded-lg w-10 h-10"><span class="font-bold ml-3 mt-2">Minecraft Server</span>
+            </a>
+            <a>
+                <div class="card" onclick="window.open('./MC-DE')">
+                    <div style="display: flex;">
+                        <img src="./cdn/mc_logo.png" class="card-img" alt="Minecraft" draggable="false">
+                        <span class="card-title">Minecraft Server</span>
+                    </div>
+                    <p class="card-desc">
+                        German Website Preview
+                    </p>
+                    <p class="card-url">
+                        /MC-DE
+                    </p>
                 </div>
-                <p class="text-gray-400 mt-2">
-                    German Website Preview
-                </p>
-                <p class="text-blue-300 mt-2">
-                    Click here
-                </p>
-            </div>
-            
-            <!-- FIELD FOUR -->
-            <div class="card bg-gray-100 rounded-lg bg-gray-800 hover:shadow-xl p-5 content-around" onclick="window.open('./MC-EN')">
-                <div class="flex">
-                    <img src="cdn/mc_logo.png" class="rounded-lg w-10 h-10"><span class="font-bold ml-3 mt-2">Minecraft Server</span>
+            </a>
+            <a>
+                <div class="card" onclick="window.open('./MC-EN')">
+                    <div style="display: flex;">
+                        <img src="./cdn/mc_logo.png" class="card-img" alt="Minecraft" draggable="false">
+                        <span class="card-title">Minecraft Server</span>
+                    </div>
+                    <p class="card-desc">
+                        English Website Preview
+                    </p>
+                    <p class="card-url">
+                        /MC-EN
+                    </p>
                 </div>
-                <p class="text-gray-400 mt-2">
-                    English Website Preview
-                </p>
-                <p class="text-blue-300 mt-2">
-                    Click here
-                </p>
-            </div>
+            </a>
         </div>
     </body>
+    
+    <footer id="bottom-footer">
+        <div class="center-footer" style="font-size: .8rem;">
+            &copy; InfoBlock 2022 | <a class="aho" href="https://infoblock.github.io/Website/terms" target="_blank">Terms of Service</a> | <a class="aho" href="https://infoblock.github.io/Website/privacy" target="_blank">Privacy Policy</a>
+        </div>
+    </footer>
 </html>
