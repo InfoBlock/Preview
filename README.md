@@ -1,0 +1,5 @@
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://github.com/infoblock)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://infoblock.github.io/Preview/)
+[![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://infoblock.github.io/Preview/)
+[![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://infoblock.github.io/Preview/)
+[![forthebadge](https://github.com/InfoBlock/Website/blob/main/LICENSE.svg)](https://github.com/InfoBlock/Preview/blob/main/LICENSE)
